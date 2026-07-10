@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  color: purple;
+}
+
+
+.icons i{
+  color: purple;
+  /* margin-top: 1rem; */
+  /* margin-right: 2rem; */
+}
+
+.icons{
+  margin-left: 2rem;
+}
+  
+.form{
+  width: 400px;
+  height: 250px;
+ 
+}
+
+.input input{
+  width: 200px;
+  height: 60px; 
+  border: none;
+  outline: none;
+  background-color: transparent;
+  /* text-align: center; */
+  /* align-items: center; */
+ }
+
+
+.input{
+  box-shadow: 1px 1px 20px rgb(214, 209, 209);
+  border-radius: 6rem;
+  margin-top: 8px;
+  font-size: 18px;
+  margin-top: 1.5rem;
+}
+
+
+.container{
+  display: flex;
+  /* gap: 6rem; */
+  justify-content: center;
+  padding-top: 8rem;
+  /* background-color: red; */
+}
+
+
+form{
+  width: 600px;
+  height: 500px;
+ justify-content: center;
+ /* align-items: center; */
+ text-align: center;
+ background-color: white;
+ padding: 2rem;
+/* position: relative; */
+box-shadow: 1px 2px 20px rgb(104, 93, 93);
+border-radius: 2rem;
+}
+
+.che{
+  margin-top: 2rem;
+}
+
+.che button{
+  margin-top: 2rem;
+  padding: 0.9rem 4rem;
+  border-radius: 23px;
+  border: none;
+  background-color: purple;
+  color: white;
+  font-size: 20px;
+}
+
+.right{
+  width: 450px;
+  background-color: purple;
+  height: 500px;
+  border-radius: 2rem;
+  position: absolute;
+margin-left: 50rem;
+}
+
+.tex{
+ padding: 8rem 4rem;
+ font-size: 22px;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.tex p{
+  margin-top: 8px;
+}
+
+.tex button{
+  padding: 0.9rem 2rem;
+  border: none;
+  border-radius: 6rem;
+  background: none;
+  outline: 2px solid white;
+  margin-top: 1rem;
+  color: white;
+}
+
