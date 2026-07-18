@@ -16,78 +16,70 @@ h1{
 }
 
 .icons{
-  margin-left: 2rem;
+  /* margin-left: 4rem; */
+  padding-left: 2rem;
 }
   
-.form{
-  width: 400px;
-  height: 250px;
- 
-}
 
-.input input{
-  width: 200px;
-  height: 60px; 
-  border: none;
-  outline: none;
-  background-color: transparent;
-  /* text-align: center; */
-  /* align-items: center; */
+.input{
+  width: 250px;
+  height: 50px; 
+   box-shadow: 1px 1px 20px rgb(214, 209, 209);
+  margin-top: 16px;
+  border-radius: 2rem;
  }
 
 
-.input{
-  box-shadow: 1px 1px 20px rgb(214, 209, 209);
-  border-radius: 6rem;
-  margin-top: 8px;
-  font-size: 18px;
-  margin-top: 1.5rem;
+.input input{
+  margin-top: 15px;
+  border: none;
+  outline: none;
+} 
+
+.form{
+  padding: 3rem;
+}
+
+
+.rap{
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px 2px 20px rgb(104, 93, 93);
+  height: 500px;
+  width: 750px;
+  margin: 2rem 4rem;
+  border-radius: 2rem;
+align-items: center;
 }
 
 
 .container{
   display: flex;
-  /* gap: 6rem; */
   justify-content: center;
-  padding-top: 8rem;
-  /* background-color: red; */
+  padding: 2rem;
 }
 
-
-form{
-  width: 600px;
-  height: 500px;
- justify-content: center;
- /* align-items: center; */
- text-align: center;
- background-color: white;
- padding: 2rem;
-/* position: relative; */
-box-shadow: 1px 2px 20px rgb(104, 93, 93);
-border-radius: 2rem;
-}
 
 .che{
   margin-top: 2rem;
 }
 
 .che button{
-  margin-top: 2rem;
-  padding: 0.9rem 4rem;
-  border-radius: 23px;
+ width: 15rem;
+ height: 3rem;
+  border-radius: 218px;
   border: none;
   background-color: purple;
   color: white;
   font-size: 20px;
+  margin-top: 2rem;
 }
 
 .right{
-  width: 450px;
+  width: 350px;
   background-color: purple;
   height: 500px;
   border-radius: 2rem;
-  position: absolute;
-margin-left: 50rem;
 box-shadow: 1px 2px 20px rgb(155, 143, 143);
 }
 
@@ -109,10 +101,143 @@ box-shadow: 1px 2px 20px rgb(155, 143, 143);
   border-radius: 6rem;
   background: none;
   outline: 2px solid white;
-  margin-top: 1rem;
+  margin-top: 2rem;
   color: white;
   cursor: pointer;
   font-weight: bold;
   font-size: 19px;
 }
+
+
+
+/* media query */
+
+@media  (max-width: 430px){
+
+  .rap{
+    display: block;
+  }
+
+  h1{
+  font-size: 1.8rem;
+
+}
+
+.che label{
+  font-size: 15px;
+}
+
+.rap{
+  height: 28rem;
+}
+
+.tex{
+  padding-top: 3rem;
+}
+
+.right p{
+  margin-top: 2rem;
+}
+
+.text button{
+  margin-top: 2rem;
+}
+
+.right{
+  height: 400px;
+}
+
+
+}
+
+
+
+
+@media  (min-width: 431px) and (max-width: 480px){
+
+  .rap{
+    display: block;
+ margin-top: -0.2rem;
+  }
+
+  h1{
+  font-size: 1.8rem;
+
+}
+
+.che label{
+  font-size: 15px;
+}
+
+.rap{
+  height: 28rem;
+}
+
+.tex{
+  padding-top: 3rem;
+}
+
+.right p{
+  margin-top: 2rem;
+}
+
+.text button{
+  margin-top: 2rem;
+}
+
+.right{
+  height: 400px;
+}
+
+
+}
+
+
+
+
+@media  (min-width: 481px) and (max-width: 803px){
+
+  .rap{
+    display: block;
+ 
+  }
+
+  h1{
+  font-size: 30px;
+
+}
+
+.che label{
+  font-size: 15px;
+}
+
+.rap{
+  height: 28rem;
+}
+
+.tex{
+  padding-top: 3rem;
+}
+
+.right p{
+  margin-top: 2rem;
+}
+
+.text button{
+  margin-top: 2rem;
+}
+
+.right{
+  height: 400px;
+  width: 500px;
+}
+
+
+}
+
+
+/* media query ending */
+
+ 
+
 
